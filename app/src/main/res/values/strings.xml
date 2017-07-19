@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Attendance</string>
+    <string name="action_mark_present">Mark Present</string>
+    <string name="action_save">Save</string>
+    <string name="msg_parse_failure">Failed to parse csv file, contact me @ anubhav.raina2015@vit.ac.in</string>
+    <string name="msg_export_fail">Failed to export file</string>
+    <string name="action_hold">Tap and hold to save</string>
+    <string name="rationale_write_storage">This app requires storage permission to import/export attendance sheets</string>
+</resources>

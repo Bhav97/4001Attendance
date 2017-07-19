@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_base"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bhav.a4001attendance.BaseActivity">
+
+    <ImageView
+        android:id="@+id/nf_image"
+        android:src="@drawable/ic_dns_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="64dp"
+        android:paddingEnd="64dp"
+        android:paddingStart="64dp"/>
+
+    <TextView
+        android:id="@+id/nf_text"
+        android:text="Use this to add files"
+        android:layout_gravity="start|bottom"
+        android:padding="24dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="64dp"
+        android:drawablePadding="0dp"
+        android:drawableEnd="@drawable/ic_arrow_forward_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:src="@drawable/ic_add_white_24dp" />
+
+</android.support.design.widget.CoordinatorLayout>
